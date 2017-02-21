@@ -4,7 +4,7 @@ import datetime as dt
 from urllib import urlretrieve
 
 url1 = 'http://hopey.netfonds.no/posdump.php?'
-url2 = ‘date=%s%s%s&paper=AAPL.O&csv_format=csv’
+url2 = 'date=%s%s%s&paper=AAPL.O&csv_format=csv'
 url = url1 + url2
 
 year = '2014'
