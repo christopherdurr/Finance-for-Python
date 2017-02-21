@@ -1,3 +1,4 @@
+#integralwithlatex.png is the end result
 import numpy as np
 import matplotlib as mpl
 import matplotlib.pyplot as plt
