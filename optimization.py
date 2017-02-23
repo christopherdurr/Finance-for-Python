@@ -1,6 +1,7 @@
 # Convex optimization
 
 # Minimization
+#minimizeparameters.png
 def fm((x, y)):
   return (np.sin(x) + 0.05 * x **2 + np.sin(y) + 0.05 * y **2)
 x = np.linspace(-10, 10, 50)
@@ -15,3 +16,5 @@ ax.set_xlabel('x')
 ax.set_ylabel('y')
 ax.set_zlabel('f(x, y)')
 fig.colorbar(surf, shrink = 0.5, aspect = 5)
+
+
